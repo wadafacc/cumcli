@@ -1,0 +1,26 @@
+{
+  "name": "cumcli",
+  "version": "0.0.1",
+  "description": "Completely Unrelated Mess",
+  "main": "main.js",
+  "bin": "yeeet.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wadafacc/cumcli.git"
+  },
+  "keywords": [
+    "cum",
+    "cli",
+    "useless"
+  ],
+  "author": "Wadafacc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wadafacc/cumcli/issues"
+  },
+  "homepage": "https://github.com/Wadafacc/cumcli#readme",
+  "dependencies": {}
+}
