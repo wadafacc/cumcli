@@ -5,7 +5,8 @@
   \ \  \____\ \  \\\  \ \  \    \ \  \ \  \____\ \  \____\ \  \ 
    \ \_______\ \_______\ \__\    \ \__\ \_______\ \_______\ \__\
     \|_______|\|_______|\|__|     \|__|\|_______|\|_______|\|__|
+
 ### Completely Unrelated Mess CLI ###
-This CLI, does absolutely nothing! It is a waste of disk space and time.
+This CLI does absolutely nothing! It is a waste of disk space and time.
 Appreciate it though. :)
-If you are actually curious what this shiet does, use the halp function.
+If you are actually curious what this shiet does, use the 'halp' function.

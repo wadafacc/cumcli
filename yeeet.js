@@ -1,11 +1,6 @@
 #!/usr/bin/env node
 
-
-
-/*
-TODO:
-
-*/
+const fs = require('fs');
 
 
 
@@ -13,16 +8,27 @@ const args = process.argv.slice(2);
 const cmd = args[0]
 const filename = args[1]
 try {
+
+    /*
+    COMMON / BASIC COMMANDS 
+    */
+
     if (cmd == "halp") {
-        console.log("### Completely Unrelated Mess CLI ###")
-        console.log("")
+        fs.readFile('halp.txt', 'utf-8', (err, data) => {
+            if (err) throw err;
+            console.log(data);
+        })
     }
-    if (cmd == "r") {
-        console.log(cmd)
-        fs.unlinkSync(filename);
-        console.log("File begone");
+    if (cmd == "--version") {
+        const data = fs.readFileSync('./package.json', 'utf8');
+        const ver = JSON.parse(data);
+        console.log("Version:", ver.version);
     }
+
+
+
+
 }
 catch {
-    console.log("Failure.");
+    console.log("Sumn went wrong you fuckin idiot.");
 }
