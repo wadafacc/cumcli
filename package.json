@@ -16,7 +16,10 @@
   "keywords": [
     "cum",
     "cli",
-    "useless"
+    "useless",
+    "why",
+    "helpful",
+    "workflow"
   ],
   "author": "Wadafacc",
   "license": "ISC",
@@ -24,5 +27,8 @@
     "url": "https://github.com/Wadafacc/cumcli/issues"
   },
   "homepage": "https://github.com/Wadafacc/cumcli#readme",
-  "dependencies": {}
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "figlet": "^1.5.2"
+  }
 }
